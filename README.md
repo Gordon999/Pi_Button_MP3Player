@@ -19,3 +19,5 @@ In Continuous Play Mode: - A will play previous track, C will play next track, D
 
 Continuous Play Mode can play more than 100 songs. It can shuffle the songs, settable in the code.
 
+To just use Continuous Play Mode you could just fit buttons A,B,C,D,E, STOP and SHUTDOWN.
+
