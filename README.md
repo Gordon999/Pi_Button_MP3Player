@@ -8,7 +8,7 @@ All buttons are connected between gpios and gnd, LEDs are connected between gpio
 
 ![Wiring](LAYOUT.jpg)
 
-10 button switches for letters A to J, 10 button switches for numbers 1 to 10. 2 button required for STOP and SHUTDOWN.
+10 button switches for letters A to J, 10 button switches for numbers 1 to 10. 2 buttons required for STOP and SHUTDOWN.
 
 A coin slot switch also connects between gpio and gnd. (can be disabled in the code)
 
