@@ -212,6 +212,7 @@ while True:
                     print ("Skip 10 Track forward...")
                     time.sleep(0.5)
                     os.killpg(p.pid, signal.SIGTERM)
+                    Z +=9
                     if Z > len(tracks):
                         Z = Z - len(tracks)
                 if  GPIO.input(stop) == 0:              # Exiting Continuous Play (if STOP pressed > 5 secs)
