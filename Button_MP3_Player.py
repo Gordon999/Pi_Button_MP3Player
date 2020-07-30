@@ -199,7 +199,7 @@ while True:
                     os.killpg(p.pid, signal.SIGTERM)
                     skip = 1
                     Z -= 1
-                    if Z < -1:
+                    if Z < 0:
                         Z = len(tracks) + Z
                 elif  GPIO.input(pins[2]) == 0:           # Next Track         (C pressed)
                     print ("Next Track...")
